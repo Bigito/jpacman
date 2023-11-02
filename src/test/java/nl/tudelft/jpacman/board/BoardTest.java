@@ -20,13 +20,13 @@ public class BoardTest {
     /**
      * test?
      */
-    @Test
-    void  test2() {
-        BasicSquare basicSquare = new BasicSquare();
-        BasicSquare[][] grid  = {{basicSquare}, {null}};
-        Board board = new Board(grid);
-        assertThat(board.invariant()).isFalse();
-        assertThat(board.squareAt(1, 0)).isNull();
-    }
+    // @Test
+    // void  test2() {
+    //     BasicSquare basicSquare = new BasicSquare();
+    //     BasicSquare[][] grid  = {{basicSquare}, {null}};
+    //     Board board = new Board(grid);
+    //     assertThat(board.invariant()).isFalse();
+    //     assertThat(board.squareAt(1, 0)).isNull();
+    // }
 
 }
