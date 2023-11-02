@@ -23,10 +23,10 @@ public class BoardTest {
     @Test
     void  test2() {
         BasicSquare basicSquare = new BasicSquare();
-        BasicSquare[][] grid  = {{basicSquare},{null}};
+        BasicSquare[][] grid  = {{basicSquare}, {null}};
         Board board = new Board(grid);
         assertThat(board.invariant()).isFalse();
-        assertThat(board.squareAt(1,0)).isNull();
+        assertThat(board.squareAt(1, 0)).isNull();
     }
 
 }
