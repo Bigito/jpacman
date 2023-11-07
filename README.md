@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/SERG-Delft/jpacman.svg?branch=master)](https://travis-ci.com/SERG-Delft/jpacman)
 ![Coverage](.github/badges/jacoco.svg)
-![Branches](.github/badges/branches.svg)
+![Branches](.github/badges/branches.svg)]
 
 
 ## About
